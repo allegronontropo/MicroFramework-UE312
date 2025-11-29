@@ -4,9 +4,9 @@ ini_set('display_errors', 1);
 
 require_once __DIR__ . '/vendor/autoload.php';
 
-use MTP\Router\SimpleRouter;
-use MTP\Template\TwigRenderer;
-use MTP\Views\TemplateView;
+use UE312\Router\SimpleRouter;
+use UE312\Template\TwigRenderer;
+use UE312\Views\TemplateView;
 use Symfony\Component\HttpFoundation\Request;
 
 class Book extends TemplateView {
