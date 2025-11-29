@@ -1,13 +1,22 @@
 {
-    
+    "name": "projetdegroupe/microframework",
+    "description": "micro-framework Router Renderer View",
+    "type": "projetdegroupe",
+
     "autoload": {
         "psr-4": {
             "MTP\\": "src/"
         }
-        },
-        
+    },
+
     "require": {
-        "symfony/http-foundation": "^7.4",
-        "twig/twig": "^3.22"
-    }
+        "symfony/http-foundation": "^6.0",
+        "twig/twig": "^3.0"
+    },
+
+    "authors": [
+        {
+            "name": "Badri Youssef, LukaLuka Jovanovic,Jacques-Henri Vollet"
+        }
+    ]
 }
