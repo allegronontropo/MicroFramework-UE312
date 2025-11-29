@@ -15,7 +15,7 @@ class TemplateView extends BaseView {
         $method = strtolower($request->getMethod());
         $data = $this->$method($request);
         
-        // eregistrer le chemin des templates pour cette classe (static::class) comme demandé ;)
+        // eregistrer le chemin des templates LATE BINDING
         $className = static::class;
         $templatePath = __DIR__ . '/../../templates/';
         // $templatePath = __DIR__ . '/../../templates/' . $className;
