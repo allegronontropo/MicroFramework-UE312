@@ -1,0 +1,13 @@
+{
+    
+    "autoload": {
+        "psr-4": {
+            "MTP\\": "src/"
+        }
+        },
+        
+    "require": {
+        "symfony/http-foundation": "^7.4",
+        "twig/twig": "^3.22"
+    }
+}

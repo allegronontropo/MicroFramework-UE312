@@ -1,0 +1,20 @@
+# Dependencies
+/vendor/
+
+# Environment files
+.env
+.env.local
+
+# Logs
+*.log
+logs/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
